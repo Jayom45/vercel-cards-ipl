@@ -14,10 +14,10 @@ import { useToast } from "@/hooks/use-toast"
 
 // Player images
 const playerImages = {
-  "1": "/placeholder.svg?height=400&width=300", // Virat Kohli
-  "2": "/placeholder.svg?height=400&width=300", // MS Dhoni
-  "3": "/placeholder.svg?height=400&width=300", // Rohit Sharma
-  "4": "/placeholder.svg?height=400&width=300", // Jasprit Bumrah
+  "1": "/vk.jpg", // Virat Kohli
+  "2": "/ms.jpg", // MS Dhoni
+  "3": "/rs.jpg", // Rohit Sharma
+  "4": "/lm.jpg", // Jasprit Bumrah
 }
 
 const featuredCards = [
@@ -53,7 +53,7 @@ const featuredCards = [
   },
   {
     id: "4",
-    name: "Jasprit Bumrah Gold Edition",
+    name: "Lasith Malinga Gold Edition",
     team: "MI",
     price: 7999,
     image: playerImages["4"],

@@ -28,10 +28,10 @@ async function getProduct(id: string) {
       player: "virat-kohli",
       price: 12999,
       images: [
-        "/placeholder.svg?height=600&width=450",
-        "/placeholder.svg?height=600&width=450",
-        "/placeholder.svg?height=600&width=450",
-      ],
+        "/vk.jpg",
+        "/vk.jpg",
+        "/vk.jpg"
+      ],  
       rarity: "Ultra Rare",
       inStock: true,
       details: {
@@ -66,7 +66,7 @@ async function getProduct(id: string) {
       team: "CSK",
       player: "ms-dhoni",
       price: 9999,
-      images: ["/placeholder.svg?height=600&width=450", "/placeholder.svg?height=600&width=450"],
+      images: ["/ms.jpg","/ms.jpg"],
       rarity: "Rare",
       inStock: true,
       details: {
@@ -101,7 +101,7 @@ async function getProduct(id: string) {
       team: "MI",
       player: "rohit-sharma",
       price: 8499,
-      images: ["/placeholder.svg?height=600&width=450", "/placeholder.svg?height=600&width=450"],
+      images: ["/rs.jpg", "/rs.jpg"],
       rarity: "Rare",
       inStock: true,
       details: {

@@ -27,7 +27,7 @@ export default function AboutPage() {
           </p>
         </div>
         <div className="relative aspect-video rounded-lg overflow-hidden">
-          <Image src="/placeholder.svg?height=400&width=600" alt="IPL Cards team" fill className="object-cover" />
+          <Image src="/mum.jpg  " alt="IPL Cards team" fill className="object-cover" />
         </div>
       </div>
 
@@ -135,7 +135,7 @@ export default function AboutPage() {
         <h2 className="text-3xl font-bold mb-8">Our Team</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { name: "Jayom Shingte", role: "Founder & CEO", image: "/placeholder.svg?height=300&width=300" },
+            { name: "Jayom Shingte", role: "Founder & CEO", image: "/j.png"  },
             { name: "Vidit Rane", role: "Head of Authentication", image: "/placeholder.svg?height=300&width=300" },
             { name: "Yessica Sule", role: "Product Manager", image: "/placeholder.svg?height=300&width=300" },
             { name: "Harshil Mesara", role: "Community Manager", image: "/placeholder.svg?height=300&width=300" },
