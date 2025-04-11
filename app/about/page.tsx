@@ -116,16 +116,16 @@ export default function AboutPage() {
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="aspect-square relative rounded-lg overflow-hidden">
-              <Image src="/placeholder.svg?height=300&width=300" alt="Community event" fill className="object-cover" />
+              <Image src="/g.jpg" alt="Community event" fill className="object-cover" />
             </div>
             <div className="aspect-square relative rounded-lg overflow-hidden">
-              <Image src="/placeholder.svg?height=300&width=300" alt="Card trading" fill className="object-cover" />
+              <Image src="/g.jpg" alt="Card trading" fill className="object-cover" />
             </div>
             <div className="aspect-square relative rounded-lg overflow-hidden">
-              <Image src="/placeholder.svg?height=300&width=300" alt="Card collection" fill className="object-cover" />
+              <Image src="/g.jpg" alt="Card collection" fill className="object-cover" />
             </div>
             <div className="aspect-square relative rounded-lg overflow-hidden">
-              <Image src="/placeholder.svg?height=300&width=300" alt="Collector meetup" fill className="object-cover" />
+              <Image src="/g.jpg" alt="Collector meetup" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -135,11 +135,15 @@ export default function AboutPage() {
         <h2 className="text-3xl font-bold mb-8">Our Team</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { name: "Jayom Shingte", role: "Founder & CEO", image: "/j.png"  },
-            { name: "Vidit Rane", role: "Head of Authentication", image: "/placeholder.svg?height=300&width=300" },
-            { name: "Yessica Sule", role: "Product Manager", image: "/placeholder.svg?height=300&width=300" },
-            { name: "Harshil Mesara", role: "Community Manager", image: "/placeholder.svg?height=300&width=300" },
-          ].map((member, index) => (
+            { name: "Jayom Shingte", role: "Founder & CEO", image: "/j.jpg"  },
+            { name: "Vidit Rane", role: "Head of Authentication", image: "/vidit.jpg" },
+            { name: "Yessica Sule", role: "Lead Designer", image: "/yev.jpg" },
+            { name: "Harshil Mesara", role: "Community Manager", image: "/hs.jpg" },
+            { name: "Anjali Bobade", role: "Marketing Strategist", image: "/bob.jpg" },
+            { name: "Pratham Siddhpura", role: "Operations Head", image: "/pr.jpg" },
+            { name: "Khushi Wadhwa", role: "Product Manager", image: "/kursi.png" },
+            { name: "Mihit Singasane", role: "Tech Lead / Full Stack Developer", image: "/mihit.jpg" },
+          ].map((member, index) => (  
             <div key={index} className="text-center">
               <div className="relative w-40 h-40 mx-auto rounded-full overflow-hidden mb-4">
                 <Image src={member.image || "/placeholder.svg"} alt={member.name} fill className="object-cover" />
