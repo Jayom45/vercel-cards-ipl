@@ -15,6 +15,9 @@ export const metadata: Metadata = {
   description:
     "Exclusive collection of IPL cricket trading cards featuring your favorite players and teams. Limited editions, rare finds, and authenticated collectibles.",
     generator: 'v0.dev'
+    other: {
+      "google-site-verification": "ljr-D1ZEg_anUFzonIVGhn5fzbAS7kImResYAWEdNEQ"
+    }
 }
 
 export default function RootLayout({
