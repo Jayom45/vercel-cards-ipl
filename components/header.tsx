@@ -87,7 +87,7 @@ export default function Header() {
             <Link href="/" className="flex items-center mr-6">
               <Cricket className="h-6 w-6 mr-2 text-primary" />
               <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
-                IPL Cards
+                IPL Cards 2025
               </span>
             </Link>
 

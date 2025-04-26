@@ -62,7 +62,7 @@ export default function ContactPage() {
             <CardDescription>Give us a call</CardDescription>
           </CardHeader>
           <CardContent>
-            <p>+91 98765 43210</p>
+            <p>+91 996XX XX699</p>
             <p className="text-sm text-muted-foreground mt-1">Mon-Fri, 10am-6pm IST</p>
           </CardContent>
         </Card>
@@ -75,7 +75,7 @@ export default function ContactPage() {
             <CardDescription>Send us a message</CardDescription>
           </CardHeader>
           <CardContent>
-            <p>support@iplcards.com</p>
+            <p>jam.shingte@gmail.com</p>
             <p className="text-sm text-muted-foreground mt-1">We'll respond within 24 hours</p>
           </CardContent>
         </Card>
@@ -88,8 +88,8 @@ export default function ContactPage() {
             <CardDescription>Visit our office</CardDescription>
           </CardHeader>
           <CardContent>
-            <p>123 Cricket Lane, Bangalore</p>
-            <p className="text-sm text-muted-foreground mt-1">Karnataka, India 560001</p>
+            <p>Besides Wankhede Stadium , Mumbai</p>
+            <p className="text-sm text-muted-foreground mt-1">Maharashtra, India 400002</p>
           </CardContent>
         </Card>
       </div>

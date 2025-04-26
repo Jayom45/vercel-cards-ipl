@@ -116,16 +116,16 @@ export default function AboutPage() {
           </div>
           <div className="grid grid-cols-2 gap-4">
             <div className="aspect-square relative rounded-lg overflow-hidden">
-              <Image src="/g.jpg" alt="Community event" fill className="object-cover" />
+              <Image src="/g1.jpg" alt="Community event" fill className="object-cover" />
             </div>
             <div className="aspect-square relative rounded-lg overflow-hidden">
-              <Image src="/g.jpg" alt="Card trading" fill className="object-cover" />
+              <Image src="/g4.jpg" alt="Card trading" fill className="object-cover" />
             </div>
             <div className="aspect-square relative rounded-lg overflow-hidden">
-              <Image src="/g.jpg" alt="Card collection" fill className="object-cover" />
+              <Image src="/g3.jpg" alt="Card collection" fill className="object-cover" />
             </div>
             <div className="aspect-square relative rounded-lg overflow-hidden">
-              <Image src="/g.jpg" alt="Collector meetup" fill className="object-cover" />
+              <Image src="/g2.jpg" alt="Collector meetup" fill className="object-cover" />
             </div>
           </div>
         </div>

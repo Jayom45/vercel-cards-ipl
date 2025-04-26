@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Instagram, Twitter } from "lucide-react"
+import { Facebook, Instagram, Twitter,Github, MessageCircle,Linkedin} from "lucide-react"
 
 export default function Footer() {
   return (
@@ -16,17 +16,21 @@ export default function Footer() {
               The premier destination for IPL cricket trading cards and collectibles.
             </p>
             <div className="flex space-x-4 mt-6">
-              <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                <Facebook className="h-5 w-5" />
-                <span className="sr-only">Facebook</span>
+              <Link href="https://github.com/Jayom45" target ="blank" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Github className="h-5 w-5" />
+                <span className="sr-only">Github</span>
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-                <Twitter className="h-5 w-5" />
+              <Link href="https://api.whatsapp.com/send/?phone=9967022699&text&type=phone_number&app_absent=0" target ="blank" className="text-muted-foreground hover:text-foreground transition-colors">
+                <MessageCircle className="h-5 w-5" />
                 <span className="sr-only">Twitter</span>
               </Link>
-              <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+              <Link href="https://www.instagram.com/jayom_shingte/" target ="blank" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Instagram className="h-5 w-5" />
                 <span className="sr-only">Instagram</span>
+              </Link>
+              <Link href="https://www.linkedin.com/in/jayomsambhajishingte/" target ="blank" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Linkedin className="h-5 w-5" />
+                <span className="sr-only">LinkedIN</span>
               </Link>
             </div>
           </div>
