@@ -85,7 +85,7 @@ export default function Header() {
             </Sheet>
 
             <Link href="/" className="flex items-center mr-6">
-              <Cricket className="h-6 w-6 mr-2 text-primary" />
+            <img src="/j2.png" alt="Logo" className="h-10 w-10 mr-4 " />
               <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
                 IPL Cards 2025
               </span>
